@@ -1,0 +1,218 @@
+@charset "ISO-8859-1";
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: black;
+    color: white;
+    background-image: url('/images/fall-movies-index-1628968089.png');
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    font-size: 36px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo {
+    margin-left: 9rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav {
+    padding-top: 6rem;
+    display: flex;
+    text-align: end;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    margin-right: 10rem;
+}
+
+.nav-links li {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+section {
+    width: 100%;
+    padding-top: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.664);
+    width: 50rem;
+    height: 60rem;
+    justify-content: center;
+    box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+}
+
+.form-header {
+    text-align: center;
+    width: 100%;
+    padding-top: 5rem;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form-content {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.form-get {
+    background-color: white;
+    color: black;
+    width: 35rem;
+    height: 3rem;
+    border-radius: 10px;
+    margin-top: 3rem;
+    padding-left: 1rem;
+    display: flex;
+}
+
+.lab {
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.labels {
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 6px;
+}
+
+.form-get input {
+    height: 100%;
+    font-size: 24px;
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+}
+
+.submit-form-btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.submit-form-btn button {
+    width: 10rem;
+    height: 3rem;
+    font-size: 26px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.submit-form-btn button:hover {
+    cursor: pointer;
+    background-color: orange;
+}
+
+.create-account {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.create-account a,
+p {
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.create-account a:hover {
+    color: orange;
+}
+
+
+/* footer content */
+
+footer {
+    height: 100vh;
+    color: white;
+    padding-top: 10vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form-footer {
+    width: 100%;
+    padding-top: 5vh;
+}
+
+.footer-top {
+    width: 100%;
+    height: 15vh;
+    border-bottom: 2px solid orange;
+}
+
+.footer-top a {
+    font-size: 36px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-main {
+    width: 100%;
+    display: flex;
+    height: 50vh;
+    padding-top: 10vh;
+    border-bottom: 2px solid orange;
+}
+
+.footer-main-left {
+    text-align: center;
+    width: 60%;
+}
+
+.footer-main-left h1 {
+    font-size: 46px;
+    margin-bottom: 30px;
+}
+
+.footer-main p {
+    font-size: 36px;
+}
+
+.footer-main-right {
+    text-align: end;
+    width: 40%;
+}
+
+.footer-main-right ul li,
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 36;
+    margin-top: 15px;
+}
+
+.footer-bottom {
+    padding-top: 10vh;
+    text-align: center;
+}
